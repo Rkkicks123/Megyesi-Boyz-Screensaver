@@ -19,7 +19,7 @@ let y= 0;
 
 let axis= 1200;
   
-let height= 0;
+let height= -100;
 
 let ax= 600;
   
@@ -27,7 +27,7 @@ let ht= 0;
 
 let a= 1000;
   
-let h= 0;
+let h= -100;
 
 let b = 200;
 
@@ -35,7 +35,7 @@ let c= 0;
 
 let d = 800;
 
-let e= 0;
+let e= -100;
 
 //Animate:
 export function animate (){
@@ -85,17 +85,17 @@ export function animate (){
   
   //Speed:
   x=x+0
-  y=y+4
+  y=y+0.5
   axis=axis+0
-  height=height+5
+  height=height+0.7
   ax=ax+0
-  ht=ht+6
+  ht=ht+0.8
   a=a+0
-  h=h+7
+  h=h+0.9
   b=b+0
-  c=c+5
+  c=c+0.6
   d=d+0
-  e=e+3
+  e=e+0.5
 
   //draing part:
   
